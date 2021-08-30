@@ -1,0 +1,16 @@
+{
+  "name": "sql_inject",
+  "version": "1.0.0",
+  "description": "this is my project for sql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "tunnel": "0.0.6"
+  }
+}

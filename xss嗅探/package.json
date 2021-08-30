@@ -1,0 +1,23 @@
+{
+  "name": "node_spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "ast": "node ast.js",
+    "scrapy": "node scrapy.js",
+    "xss": "node xss.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "esprima": "^4.0.1",
+    "estraverse": "^5.2.0",
+    "puppeteer": "^9.1.1",
+    "tunnel": "0.0.6"
+  }
+}
