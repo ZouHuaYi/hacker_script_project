@@ -3,7 +3,7 @@
 module.exports = () => {
   return {
     schedule: {
-      interval: '1s',
+      interval: '1h',
       type: 'all',
     },
     async task(ctx) {
